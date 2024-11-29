@@ -1,4 +1,4 @@
-Note: I am  Familiar With java so i have made pr0ject in java 
+Note: I am  Familiar With java so i have made project in java 
 
 # Backend-Case-Study-Benry
 
