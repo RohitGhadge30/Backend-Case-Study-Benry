@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Service Request</title>
+</head>
+<body>
+    <h1>Create New Service Request</h1>
+    <form action="/customer/create" method="post">
+        <label for="requestType">Request Type:</label>
+        <input type="text" id="requestType" name="requestType" required><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>

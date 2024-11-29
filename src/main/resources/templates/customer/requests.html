@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Requests</title>
+</head>
+<body>
+    <h1>Your Service Requests</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Request Type</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Date Submitted</th>
+                <th>Date Resolved</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="request : ${requests}">
+                <td th:text="${request.requestType}"></td>
+                <td th:text="${request.description}"></td>
+                <td th:text="${request.status}"></td>
+                <td th:text="${request.dateSubmitted}"></td>
+                <td th:text="${request.dateResolved}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
