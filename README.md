@@ -13,7 +13,7 @@ A simple web application built using **Spring Boot**, **Thymeleaf**, and an **H2
 
 ## Technologies Used
 - **Backend**: Java Spring Boot
-- **Frontend**: HTML, CSS, JavaScript, Thymeleaf
+- **Frontend**: HTML, Thymeleaf
 - **Database**: H2 (in-memory)
 
 ## Running the Application
